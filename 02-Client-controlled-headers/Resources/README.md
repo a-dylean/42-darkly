@@ -1,17 +1,18 @@
 **Vulnerability: Reliance on client-controlled headers**
 
 **Description:**
-The application exposes secret content when specific HTTP headers are present (`Referer` and `User-Agent`). The copyright page contains comments instructing to use particular header values. Because headers like Referer and User-Agent are fully controlled by the client, an attacker can spoof them (via curl or browser extensions (like ModHeader)).
+The copyright page contains comments instructing to use particular header values. Because headers like `Referer` and `User-Agent` are fully controlled by the client, an attacker can spoof them (via curl or browser extensions (like ModHeader)).
 
 **Steps to Reproduce:**
+Information is leaked in the source code on this page:
 ```
 http://<YOUR_IP_ADDRESS>/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
 ```
+Setting these headers will unlock the flag:
 ```
 Use Referer: https://www.nsa.gov/
 Use User-Agent: ft_bornToSec
 ```
-The value is an MD5 hash. Using an MD5 lookup/decrypt service like https://md5decrypt.net/ we can learn that the value equals to `false` and then we can change it to `true` (`b326b5062b2f0e69046810717534cb09`). If we reload the page the server accepts the poisoned cookie and treats the session as elevated (admin).
 
 **Impact:**
 1. Unauthorized data disclosure: Secrets or protected content can be revealed without proper authentication.
