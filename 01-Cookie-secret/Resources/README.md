@@ -13,7 +13,7 @@ cookie {
 The value is an MD5 hash. Using an MD5 lookup/decrypt service like https://md5decrypt.net/ we can learn that the value equals to `false` and then we can change it to `true` (`b326b5062b2f0e69046810717534cb09`). If we reload the page the server accepts the poisoned cookie and treats the session as elevated (admin).
 
 **Impact:**
-1. Privilege escalation: Attackers can forge cookies to gain access to authenticated areas and existing sessions
+1. Privilege escalation: Attackers can forge cookies to gain access to authenticated areas and existing sessions.
 2. Impersonation: Attackers can gain administrative access and act as legitimate users.
 3. Integrity & confidentiality risk: Unauthorized actions or data access may follow from elevated privileges.
 
