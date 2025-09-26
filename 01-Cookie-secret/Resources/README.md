@@ -2,7 +2,7 @@
 
 **Description:**
 The application stores state information on the client inside an unsigned and weakly hashed cookie. An attacker can reverse with that cookie value to escalate privileges (for example, set an “admin” flag) because the server does not cryptographically verify cookie integrity or authenticity.
-
+https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md
 **Steps to Reproduce:**
 ```
 cookie {
