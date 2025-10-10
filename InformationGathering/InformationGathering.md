@@ -1,3 +1,14 @@
+Mains infos:
+
+- Reverse Proxy: `nginx/1.4.6 (Ubuntu)`
+- Backend server: `Apache/2.4.7 (Ubuntu)`
+- PHP version: `5.5.9-1ubuntu4.29`
+- CMS: WordPress (not installed)
+- JavaScript libraries/frameworks:
+  - jQuery `1.11.1`
+- Database:
+  - MariaDB: `5.5.64-MariaDB-1ubuntu0.14.04.1` port: `3306`
+
 ## Information Gathering
 
 ### Web Server FingerPrinting
@@ -125,4 +136,66 @@ curl localhost:8080/.hidden/
     <hr />
   </body>
 </html>
+```
+
+### Enumerate Application on Web Server
+
+https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver
+
+Many applications can be related to a given dns name / ip address. These applications can be identified by searching for common application paths or by using automated tools to scan the web server.
+
+To find applications on a ip address / dns name:
+
+- Search different based URL paths:
+  - `example.com/blog` for blogs applications, `example.com/forum` for forums, etc.
+  - `/wp-admin` for WordPress
+- Non standard ports:
+  - `8080`, `8888`, etc.
+- Virtual hosts:
+  - `dev.example.com`, `test.example.com`, etc.
+
+#### Search Based URL
+
+- `http://localhost:8080/wp-admin/` gives custom 404 html page. Means WordPress is probably not installed.
+
+#### Search Non Standard Ports
+
+Find open ports with nmap:
+
+```bash
+nmap -p- localhost
+```
+
+```bash
+# Works only if the port is open and port forwarding is setup correctly (here this port forwarding is done in VirtualBox NAT settings so it's not like a real scan)
+# Here 8080 -> 80
+#      8888 -> 443
+#      2222 -> 22
+#      3306 -> 3306
+nmap -sV -p 8888,8080,2222,3306 --script=http-enum,http-title,http-methods,http-headers,banner localhost
+# Starting Nmap 7.80 ( https://nmap.org ) at 2025-10-10 14:44 CEST
+# Nmap scan report for localhost (127.0.0.1)
+# Host is up (0.000055s latency).
+#
+# PORT     STATE  SERVICE    VERSION
+# 2222/tcp open   tcpwrapped
+# 3306/tcp closed mysql
+# 8080/tcp open   http       nginx 1.4.6 (Ubuntu)
+# | http-headers:
+# |   Server: nginx/1.4.6 (Ubuntu)
+# |   Date: Fri, 10 Oct 2025 12:44:16 GMT
+# |   Content-Type: text/html
+# |   Connection: close
+# |   X-Powered-By: PHP/5.5.9-1ubuntu4.29
+# |   Set-Cookie: I_am_admin=68934a3e9455fa72420237eb05902327; expires=Fri, 10-Oct-2025 13:44:16 GMT; Max-Age=3600
+# |
+# |_  (Request type: HEAD)
+# | http-methods:
+# |_  Supported Methods: GET HEAD POST
+# |_http-server-header: nginx/1.4.6 (Ubuntu)
+# |_http-title: BornToSec - Web Section
+# 8888/tcp open   tcpwrapped
+# Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+#
+# Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 ```

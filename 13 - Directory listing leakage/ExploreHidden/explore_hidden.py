@@ -12,7 +12,7 @@ import sys
 
 
 class DirectoryExplorer:
-    def __init__(self, base_url, file_max=20000, delay=0.1):
+    def __init__(self, base_url, file_max=200000, delay=0.1):
         self.base_url = base_url
         self.file_count = 0
         self.file_max = file_max
@@ -185,8 +185,8 @@ class DirectoryExplorer:
 def main():
     # Configuration
     base_url = 'http://localhost:8080/.hidden/'
-    file_max = 2000000
-    delay = 0.1  # Delay between requests in seconds
+    file_max = 200000000
+    delay = 0  # Delay between requests in seconds
 
     # Create and run explorer
     explorer = DirectoryExplorer(base_url, file_max, delay)

@@ -2,6 +2,8 @@
 
 Introductory project to computer security in the specific field of the web, this project will have you dissect a vulnerable website.
 
+To accesss the ip / app to test, install darkly iso in a VM (VirtualBox or VMWare) and start it (port forward guest 80 to host 8080), the app will be available at `http://localhost:8080`
+
 ## Resources
 
 - OWASP WebSec GUIDE: https://owasp.org/www-project-web-security-testing-guide/
@@ -45,5 +47,4 @@ flowchart LR
 
     M -.->|New Requirements| P
 
-    class P,R,D,C,T,DE,M phase
 ```
