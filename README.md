@@ -9,6 +9,8 @@ To accesss the ip / app to test, install darkly iso in a VM (VirtualBox or VMWar
 - OWASP WebSec GUIDE: https://owasp.org/www-project-web-security-testing-guide/
   - Lastest: https://github.com/OWASP/wstg/tree/master
   - Stable pdf (2025): https://github.com/OWASP/wstg/releases/download/v4.2/wstg-v4.2.pdf
+- OWASP - Database recommandation: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
+
 - ZAP - Automation Testing Tool recommended by OWASP: https://www.zaproxy.org/
 
 ## Notes

@@ -167,6 +167,14 @@ nmap -p- localhost
 ```
 
 ```bash
+nmap –Pn –sT –sV –p0-65535 localhost
+# -Pn: Treat all hosts as online -- skip host discovery
+# -sT: TCP connect scan
+# -sV: Version detection
+# -p0-65535: Scan all ports
+```
+
+```bash
 # Works only if the port is open and port forwarding is setup correctly (here this port forwarding is done in VirtualBox NAT settings so it's not like a real scan)
 # Here 8080 -> 80
 #      8888 -> 443
@@ -199,3 +207,27 @@ nmap -sV -p 8888,8080,2222,3306 --script=http-enum,http-title,http-methods,http-
 #
 # Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 ```
+
+#### Search Virtual Hosts
+
+Nmap script `http-vhosts` can be used to find virtual hosts:
+
+```bash
+nmap --script http-vhosts -p 8080 localhost
+# Starting Nmap 7.80 ( https://nmap.org ) at 2025-10-10 18:08 CEST
+# Nmap scan report for localhost (127.0.0.1)
+# Host is up (0.000064s latency).
+#
+# PORT     STATE SERVICE
+# 8080/tcp open  http-proxy
+# | http-vhosts:
+# |_127 names had status 200
+#
+# Nmap done: 1 IP address (1 host up) scanned in 0.17 seconds
+```
+
+Here the server is replying 200 for many hostnames, which often means the webserver is serving the same site regardless of the Host: header (or it’s configured with a catch-all vhost). That can hide and enable a number of issues (host-header attacks, cache poisoning, takeover opportunities, inadvertent disclosure of absolute URLs, etc.)
+
+### Review Webpage Content for Information Leakage
+
+https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage
