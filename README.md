@@ -12,6 +12,8 @@ To accesss the ip / app to test, install darkly iso in a VM (VirtualBox or VMWar
 - OWASP - Database recommandation: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
 
 - ZAP - Automation Testing Tool recommended by OWASP: https://www.zaproxy.org/
+- NMAP (Network Mapper) - Utility for network discovery and security auditing
+    - nmap - scripts: https://nmap.org/nsedoc/scripts/
 
 ## Notes
 

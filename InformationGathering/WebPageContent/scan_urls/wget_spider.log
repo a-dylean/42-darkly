@@ -1,0 +1,86 @@
+2025-10-14 15:52:04 URL:http://localhost:8080/ [6892] -> "localhost:8080/index.html.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/robots.txt [53/53] -> "localhost:8080/robots.txt" [1]
+2025-10-14 15:52:04 URL: http://localhost:8080/js/jquery.min.js 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/js/skel.min.js 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/js/skel-layers.min.js 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/js/init.js 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/favicon.ico 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL:http://localhost:8080/css/skel.css [6203/6203] -> "localhost:8080/css/skel.css.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/css/style.css [20997/20997] -> "localhost:8080/css/style.css.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/css/style-xlarge.css [216/216] -> "localhost:8080/css/style-xlarge.css.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/index.php [6892] -> "localhost:8080/index.php.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=survey [5905] -> "localhost:8080/index.html?page=survey.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=member [2452] -> "localhost:8080/index.html?page=member.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=signin [3006] -> "localhost:8080/index.html?page=signin.tmp.tmp" [1]
+2025-10-14 15:52:04 URL: http://localhost:8080/images/PRISM_logo.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=media&src=nsa [2234] -> "localhost:8080/index.html?page=media&src=nsa.tmp.tmp" [1]
+2025-10-14 15:52:04 URL: http://localhost:8080/images/nsa_prism.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/images/nsa.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/images/04_Playstation.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL: http://localhost:8080/images/05_Lounge.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=upload [2489] -> "localhost:8080/index.html?page=upload.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=searchimg [2400] -> "localhost:8080/index.html?page=searchimg.tmp.tmp" [1]
+2025-10-14 15:52:04 URL:http://localhost:8080/?page=feedback [3317] -> "localhost:8080/index.html?page=feedback.tmp.tmp" [1]
+2025-10-14 15:52:05 URL:https://www.facebook.com/unsupportedbrowser [46206] -> "localhost:8080/index.php?page=redirect&site=facebook.tmp.tmp" [1]
+https://twitter.com/42born2code:
+Remote file does not exist -- broken link!!!
+2025-10-14 15:52:06 URL:https://www.facebook.com/unsupportedbrowser [46206] -> "localhost:8080/index.php?page=redirect&site=instagram.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f [5837] -> "localhost:8080/index.html?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/css/font-awesome.min.css [23739/23739] -> "localhost:8080/css/font-awesome.min.css.tmp.tmp" [1]
+2025-10-14 15:52:06 URL: http://localhost:8080/css/images/overlay.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/images/banner.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=survey [5905] -> "localhost:8080/index.php?page=survey.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=member [2452] -> "localhost:8080/index.php?page=member.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=signin [3006] -> "localhost:8080/index.php?page=signin.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=media&src=nsa [2234] -> "localhost:8080/index.php?page=media&src=nsa.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=upload [2489] -> "localhost:8080/index.php?page=upload.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=searchimg [2400] -> "localhost:8080/index.php?page=searchimg.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=feedback [3317] -> "localhost:8080/index.php?page=feedback.tmp.tmp" [1]
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f [5837] -> "localhost:8080/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f.tmp.tmp" [1]
+2025-10-14 15:52:06 URL: http://localhost:8080/images/search_img.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/images/marvin.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL:http://localhost:8080/?page=recover [2396] -> "localhost:8080/index.html?page=recover.tmp.tmp" [1]
+2025-10-14 15:52:06 URL: http://localhost:8080/images/upload.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/images/search.png 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/audio/music.mp3 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/images/albatroz.jpg 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.eot?v=4.3.0 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.eot? 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.woff2?v=4.3.0 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.woff?v=4.3.0 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.ttf?v=4.3.0 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL: http://localhost:8080/fonts/fontawesome-webfont.svg?v=4.3.0 200 OK
+unlink: No such file or directory
+2025-10-14 15:52:06 URL:http://localhost:8080/index.php?page=recover [2396] -> "localhost:8080/index.php?page=recover.tmp.tmp" [1]
+2025-10-14 15:52:06 URL: http://localhost:8080/images/mailbox.png 200 OK
+unlink: No such file or directory
+Found 1 broken link.
+
+https://twitter.com/42born2code
+
+FINISHED --2025-10-14 15:52:06--
+Total wall clock time: 1.4s
+Downloaded: 27 files, 212K in 0.01s (17.0 MB/s)
