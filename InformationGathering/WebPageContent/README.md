@@ -61,17 +61,77 @@ diff -u commented_page_no_ref.html commented_page_ref.html
 ```
 
 ```html
---- commented_page_no_ref.html        2025-10-14 12:02:03.013157405 +0200
-+++ commented_page_ref.html   2025-10-14 12:01:44.436965495 +0200
-@@ -34,7 +34,7 @@
-                <!-- Main -->
-                        <section id="main" class="wrapper">
-                                <div class="container" style="margin-top:75px">
--<audio id="best_music_ever" src="audio/music.mp3"preload="true" loop="loop" autoplay="autoplay">
-+FIRST STEP DONE<audio id="best_music_ever" src="audio/music.mp3"preload="true" loop="loop" autoplay="autoplay">
- </audio>
- <script language="javascript">function coucou(){document.getElementById('best_music_ever').play();}</script>
+--- commented_page_no_ref.html 2025-10-14 12:02:03.013157405 +0200 +++
+commented_page_ref.html 2025-10-14 12:01:44.436965495 +0200 @@ -34,7 +34,7 @@
+<!-- Main -->
+<section id="main" class="wrapper">
+  <div class="container" style="margin-top:75px">
+    -<audio
+      id="best_music_ever"
+      src="audio/music.mp3"
+      preload="true"
+      loop="loop"
+      autoplay="autoplay"
+    >
+      +FIRST STEP DONE<audio
+        id="best_music_ever"
+        src="audio/music.mp3"
+        preload="true"
+        loop="loop"
+        autoplay="autoplay"
+      ></audio>
+      <script language="javascript">
+        function coucou() {
+          document.getElementById("best_music_ever").play();
+        }
+      </script>
+    </audio>
+  </div>
+</section>
 ```
 
 The is a new msg `+FIRST STEP DONE` displayed.
 
+Then:
+
+```bash
+diff -u <(curl -s http://localhost:8080/\?page\=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f) <(curl -s -H "Referer: https://www.nsa.gov/" -H "User-Agent: ft_bornToSec" http://localhost:8080/\?page\=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f)
+```
+
+```html
+--- /proc/self/fd/18 2025-10-14 16:14:45.623475364 +0200 +++ /proc/self/fd/19
+2025-10-14 16:14:45.623475364 +0200 @@ -34,7 +34,7 @@
+<!-- Main -->
+<section id="main" class="wrapper">
+  <div class="container" style="margin-top:75px">
+    -<audio
+      id="best_music_ever"
+      src="audio/music.mp3"
+      preload="true"
+      loop="loop"
+      autoplay="autoplay"
+    >
+      +
+      <center>
+        <h2 style="margin-top:50px;">
+          The flag is :
+          f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
+        </h2>
+        <br /><img src="images/win.png" alt="" width="200px" height="200px" />
+      </center>
+      <audio
+        id="best_music_ever"
+        src="audio/music.mp3"
+        preload="true"
+        loop="loop"
+        autoplay="autoplay"
+      ></audio>
+      <script language="javascript">
+        function coucou() {
+          document.getElementById("best_music_ever").play();
+        }
+      </script>
+    </audio>
+  </div>
+</section>
+```

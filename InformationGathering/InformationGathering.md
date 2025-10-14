@@ -3,11 +3,46 @@ Mains infos:
 - Reverse Proxy: `nginx/1.4.6 (Ubuntu)`
 - Backend server: `Apache/2.4.7 (Ubuntu)`
 - PHP version: `5.5.9-1ubuntu4.29`
+  - Expected HTTP Headers:
+    `Referer: https://www.nsa.gov/`
+    `User-Agent: ft_bornToSec`
 - CMS: WordPress (not installed)
 - JavaScript libraries/frameworks:
   - jQuery `1.11.1`
 - Database:
   - MariaDB: `5.5.64-MariaDB-1ubuntu0.14.04.1` port: `3306`
+
+## Attack Surface Analysis
+
+### Dynamic Pages & Entry Points
+
+| URL                         | Method   | Parameters                            | Authentication | Input Validation | Identified Vulnerabilities | Notes                                                  |
+| --------------------------- | -------- | ------------------------------------- | -------------- | ---------------- | -------------------------- | ------------------------------------------------------ |
+| `/index.php?page=signin`    | GET/POST | `page=signin`, `username`, `password` | No             | Unknown          | -                          | Login page - test for auth bypass, brute force         |
+| `/index.php?page=member`    | GET      | `page=member`, `id` (string)          | No             | None             | SQL Injection              | Member profile area - injectable id parameter          |
+| `/index.php?page=searchimg` | GET      | `page=searchimg`, `id` (string)       | No             | None             | SQL Injection              | Image search - injectable id parameter                 |
+| `/index.php?page=survey`    | GET/POST | `page=survey`, form fields            | Unknown        | Unknown          | Possible XSS               | Survey form - test all input fields for XSS            |
+| `/index.php?page=upload`    | GET/POST | `page=upload`, `file`                 | Unknown        | Unknown          | Unrestricted File Upload   | File upload - test extensions, MIME types, size limits |
+| `/index.php?page=contact`   | GET/POST | `page=contact`, form fields           | No             | Unknown          | Possible XSS/CSRF          | Contact form - test email injection, XSS               |
+| `/index.php?page=about`     | GET      | `page=about`                          | No             | N/A              | -                          | Static content                                         |
+| `/index.php?page=home`      | GET      | `page=home`                           | No             | N/A              | -                          | Home page                                              |
+| `/index.php`                | GET      | `page` (empty/invalid)                | No             | Unknown          | Path Traversal, LFI        | Test page parameter with `../`, `null`, special chars. |
+
+### Testing Priorities
+
+1. **Critical**: SQL Injection on `member` and `searchimg` pages
+2. **High**: File upload vulnerabilities, XSS on forms
+3. **Medium**: Authentication bypass, CSRF on POST endpoints
+4. **Low**: Path traversal via `page` parameter
+
+### Common Attack Vectors to Test
+
+- **SQL Injection**: `' OR '1'='1`, `UNION SELECT`, `1; DROP TABLE`
+- **XSS**: `<script>alert(1)</script>`, `<img src=x onerror=alert(1)>`
+- **Path Traversal**: `../../../../etc/passwd`, `....//....//`
+- **Local File Inclusion (LFI)**: `php://filter/read=convert.base64-encode/resource=index`
+- **File Upload**: `.php.jpg`, null byte injection, web shells
+- **CSRF**: Missing tokens on state-changing operations
 
 ## Information Gathering
 
@@ -250,25 +285,25 @@ Comments in HTML can sometimes contain sensitive information that should not be 
 nmap -sV -p 8080 --script http-comments-displayer localhost
 # Nmap scan report for localhost (127.0.0.1)
 # Host is up (0.00011s latency).
-# 
+#
 # PORT     STATE SERVICE VERSION
 # 8080/tcp open  http    nginx 1.4.6 (Ubuntu)
-# | http-comments-displayer: 
+# | http-comments-displayer:
 # | Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=localhost
-# |     
+# |
 # |     Path: http://localhost:8080/css/style.css
 # |     Line number: 498
-# |     Comment: 
+# |     Comment:
 # |         /* Image */
-# |     
+# |
 # |     Path: http://localhost:8080/css/skel.css
 # |     Line number: 97
-# |     Comment: 
+# |     Comment:
 # |         /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
-# |     
+# |
 # |     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
 # |     Line number: 520
-# |     Comment: 
+# |     Comment:
 # |         <!--
 # |         You must come from : "https://www.nsa.gov/".
 # |         -->
@@ -276,3 +311,16 @@ nmap -sV -p 8080 --script http-comments-displayer localhost
 # ...
 ```
 
+#### Identify Application Entry Points
+
+Entry points are the various ways that users can interact with a web application. This can include forms, search fields, file upload fields, and other input fields.
+
+To identify application entry points, you can use a variety of tools and techniques, including:
+
+- Manual testing: Manually explore the web application and look for input fields and forms.
+- Automated tools: Use tools like Burp Suite, OWASP ZAP, or Nikto to scan the web application for input fields and forms.
+- Source code review: If you have access to the source code, review it for input fields and forms.
+
+Once you have identified the entry points, you can then test them for vulnerabilities such as SQL injection, cross-site scripting (XSS), and file inclusion vulnerabilities.
+
+Making a spreadsheet to track the entry points and their parameters can be very useful for organizing your testing efforts.
