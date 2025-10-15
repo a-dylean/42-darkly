@@ -1,0 +1,4 @@
+<?php
+// file.php
+echo "Hello from the uploaded file!";
+?>
