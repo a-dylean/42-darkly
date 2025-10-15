@@ -31,6 +31,7 @@ We know the file was uploaded successfully because we see the message `/tmp/file
 https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files
 https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
 https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
+https://cwe.mitre.org/data/definitions/98.html
 
 Unrestricted file upload vulnerabilities occur when a web application allows users to upload files without proper validation and sanitization. This can lead to various security issues, including remote code execution, data breaches, and server compromise.
 Usually, attackers exploit these vulnerabilities by uploading malicious files, such as web shells or scripts, that can be executed on the server using another vulnerability (e.g., local file inclusion) to execute the uploaded file.
