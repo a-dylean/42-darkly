@@ -22,7 +22,7 @@ Mains infos:
 | `/index.php?page=member`    | GET      | `page=member`, `id` (string)          | No             | None             | SQL Injection              | Member profile area - injectable id parameter          |
 | `/index.php?page=searchimg` | GET      | `page=searchimg`, `id` (string)       | No             | None             | SQL Injection              | Image search - injectable id parameter                 |
 | `/index.php?page=survey`    | GET/POST | `page=survey`, form fields            | Unknown        | Unknown          | Possible XSS               | Survey form - test all input fields for XSS            |
-| `/index.php?page=upload`    | GET/POST | `page=upload`, `file`                 | Unknown        | Unknown          | Unrestricted File Upload   | File upload - test extensions, MIME types, size limits |
+| `/index.php?page=upload`    | GET/POST | `page=upload`, `file`                 | No             | Extension (jpeg) | Unrestricted File Upload   | File upload - test extensions, MIME types, size limits |
 | `/index.php?page=contact`   | GET/POST | `page=contact`, form fields           | No             | Unknown          | Possible XSS/CSRF          | Contact form - test email injection, XSS               |
 | `/index.php?page=about`     | GET      | `page=about`                          | No             | N/A              | -                          | Static content                                         |
 | `/index.php?page=home`      | GET      | `page=home`                           | No             | N/A              | -                          | Home page                                              |
@@ -312,6 +312,8 @@ nmap -sV -p 8080 --script http-comments-displayer localhost
 ```
 
 #### Identify Application Entry Points
+
+https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points
 
 Entry points are the various ways that users can interact with a web application. This can include forms, search fields, file upload fields, and other input fields.
 
