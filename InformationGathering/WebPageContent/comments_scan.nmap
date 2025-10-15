@@ -1,0 +1,392 @@
+# Nmap 7.80 scan initiated Tue Oct 14 11:36:51 2025 as: nmap -sV -p 8080 --script http-comments-displayer -oA InformationGathering/WebPageComments/comments_scan localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00011s latency).
+
+PORT     STATE SERVICE VERSION
+8080/tcp open  http    nginx 1.4.6 (Ubuntu)
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=localhost
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 498
+|     Comment: 
+|         /* Image */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 97
+|     Comment: 
+|         /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 520
+|     Comment: 
+|         <!--
+|         You must come from : "https://www.nsa.gov/".
+|         -->
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 3
+|     Comment: 
+|         /* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 912
+|     Comment: 
+|         /* Header */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 8
+|     Comment: 
+|         <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 111
+|     Comment: 
+|         /* 200% */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 5
+|     Comment: 
+|         /*
+|         	Spatial by TEMPLATED
+|         	templated.co @templatedco
+|         	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+|         */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 15
+|     Comment: 
+|         /* Container */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 34
+|     Comment: 
+|         <!-- Main -->
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 21
+|     Comment: 
+|         /* width: (containers) */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 25
+|     Comment: 
+|         /* Modifiers */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 31
+|     Comment: 
+|         /* max-width: (containers * 1.25) */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 163
+|     Comment: 
+|         /* Section/Article */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 102
+|     Comment: 
+|         /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 46
+|     Comment: 
+|         /* 50% */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 1094
+|     Comment: 
+|         /* Wrapper */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 107
+|     Comment: 
+|         /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 7
+|     Comment: 
+|         /* Box Model */
+|     
+|     Path: http://localhost:8080/js/skel.min.js
+|     Line number: 1
+|     Comment: 
+|         /* skel.js v2.2.1 | (c) n33 | getskel.com | MIT licensed */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 22
+|     Comment: 
+|         <!-- Header -->
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 34
+|     Comment: 
+|         /* min-width: (containers) */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 199
+|     Comment: 
+|         /* 0% */
+|     
+|     Path: http://localhost:8080/js/skel-layers.min.js
+|     Line number: 1
+|     Comment: 
+|         /* skel-layers.js v2.0.2 | (c) n33 | getskel.com | MIT licensed */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 735
+|     Comment: 
+|         <!--
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         																																																																																																																																																																																																																																																																									Let's use this browser : "ft_bornToSec". It will help you a lot.
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         -->
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 632
+|     Comment: 
+|         <!--
+|         Where does it come from?
+|         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+|         
+|         The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+|         
+|         
+|         -->
+|     
+|     Path: http://localhost:8080/js/html5shiv.js
+|     Line number: 1
+|     Comment: 
+|         /*
+|          HTML5 Shiv v3.6.2 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
+|         */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 399
+|     Comment: 
+|         <!--
+|         Voila un peu de lecture :
+|         
+|         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+|         
+|         
+|         -->
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 800
+|     Comment: 
+|         <!-- Footer -->
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 763
+|     Comment: 
+|         /* Button */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 567
+|     Comment: 
+|         /* List */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 1053
+|     Comment: 
+|         /* Banner */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 41
+|     Comment: 
+|         /* width: (containers * 0.75) */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 1088
+|     Comment: 
+|         /* Main */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 694
+|     Comment: 
+|         /* Table */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 133
+|     Comment: 
+|         /* 150% */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 477
+|     Comment: 
+|         /* Icon */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 54
+|     Comment: 
+|         /* 25% */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 89
+|     Comment: 
+|         /* Normal */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 433
+|     Comment: 
+|         /* Feature */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 92
+|     Comment: 
+|         /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 57
+|     Comment: 
+|         /* width: (containers * 0.25) */
+|     
+|     Path: http://localhost:8080/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
+|     Line number: 409
+|     Comment: 
+|         <!-- 
+|         
+|         Fun right ?
+|         source: loem.
+|         Good bye  !!!!
+|         
+|         -->
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 1
+|     Comment: 
+|         /* skel-baseline v2.0.3 | (c) n33 | getskel.com | MIT licensed */
+|     
+|     Path: http://localhost:8080/index.php
+|     Line number: 103
+|     Comment: 
+|         <!-- Four -->
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 214
+|     Comment: 
+|         /* Form */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 27
+|     Comment: 
+|         /* 125% */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 87
+|     Comment: 
+|         /* Gutters */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 209
+|     Comment: 
+|         /* Cells */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 38
+|     Comment: 
+|         /* 75% */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 62
+|     Comment: 
+|         /* Grid */
+|     
+|     Path: http://localhost:8080/css/skel.css
+|     Line number: 49
+|     Comment: 
+|         /* width: (containers * 0.50) */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 412
+|     Comment: 
+|         /* Box */
+|     
+|     Path: http://localhost:8080/index.php
+|     Line number: 76
+|     Comment: 
+|         <!-- Two -->
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 11
+|     Comment: 
+|         /* Basic */
+|     
+|     Path: http://localhost:8080/css/style.css
+|     Line number: 1123
+|     Comment: 
+|         /* Footer */
+|     
+|     Path: http://localhost:8080/index.php
+|     Line number: 32
+|     Comment: 
+|         <!-- Banner -->
+|     
+|     Path: http://localhost:8080/index.php
+|     Line number: 43
+|     Comment: 
+|_        <!-- One -->
+|_http-server-header: nginx/1.4.6 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 14 11:36:57 2025 -- 1 IP address (1 host up) scanned in 6.22 seconds
