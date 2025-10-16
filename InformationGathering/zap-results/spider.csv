@@ -1,0 +1,88 @@
+Processed,Method,URI,Flags
+true,GET,http://localhost:8888,Seed
+true,GET,http://localhost:8888/robots.txt,Seed
+true,GET,http://localhost:8888/sitemap.xml,Seed
+true,GET,http://localhost:8888/whatever,
+true,GET,http://localhost:8888/.hidden,
+true,GET,http://localhost/.hidden/,
+true,GET,http://localhost/whatever/,
+true,GET,http://localhost:8888/index.php,
+true,GET,http://localhost:8888/css/skel.css,
+true,GET,http://localhost:8888/?page=survey,
+true,GET,http://localhost:8888/css/style.css,
+true,GET,http://localhost:8888/?page=member,
+true,GET,http://localhost:8888/?page=signin,
+true,GET,http://localhost:8888/css/style-xlarge.css,
+true,GET,http://localhost:8888/js/html5shiv.js,
+true,GET,http://localhost:8888/?page=media&src=nsa,
+false,GET,http://meyerweb.com/eric/tools/css/reset/,Out of Scope
+false,GET,https://en.wikipedia.org/wiki/PRISM_(surveillance_program),Out of Scope
+true,GET,http://localhost:8888/?page=upload,
+true,GET,http://localhost:8888/js/jquery.min.js,
+true,GET,http://localhost:8888/?page=searchimg,
+true,GET,http://localhost:8888/js/skel.min.js,
+false,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",Out of Scope
+true,GET,http://localhost:8888/?page=feedback,
+true,GET,http://localhost:8888/js/skel-layers.min.js,
+true,GET,http://localhost:8888/js/init.js,
+true,GET,http://localhost:8888/index.php?page=redirect&site=facebook,
+true,GET,http://localhost:8888/images/404.jpg,
+true,GET,http://localhost:8888/index.php?page=redirect&site=twitter,
+true,GET,http://localhost:8888/index.php?page=redirect&site=instagram,
+true,GET,http://localhost:8888/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,
+true,GET,http://localhost:8888/favicon.ico,
+true,GET,http://localhost:8888/images/PRISM_logo.png,
+true,GET,http://localhost:8888/images/nsa_prism.jpg,
+true,GET,http://localhost:8888/images/nsa.png,
+true,GET,http://localhost:8888/images/04_Playstation.jpg,
+true,GET,http://localhost:8888/images/05_Lounge.jpg,
+false,GET,https://en.wikipedia.org/wiki/PRISM_,Out of Scope
+true,GET,http://localhost:8888/index.php?page=survey,
+true,GET,http://localhost:8888/index.php?page=member,
+true,GET,http://localhost:8888/index.php?page=signin,
+true,GET,http://localhost:8888/index.php?page=media&src=nsa,
+true,GET,http://localhost:8888/index.php?page=upload,
+true,GET,http://localhost:8888/index.php?page=searchimg,
+true,GET,http://localhost:8888/index.php?page=feedback,
+true,GET,http://localhost:8888/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,
+false,GET,http://10.0.2.15/,Out of Scope
+false,GET,http://10.0.2.15/images/nsa_prism.jpg,Out of Scope
+false,GET,http://10.0.2.15/images/42.jpeg,Out of Scope
+true,GET,http://localhost:8888/?page=recover,
+true,GET,http://localhost:8888/images/marvin.jpg,
+true,GET,http://localhost:8888/?Login=Login&page=signin&password=ZAP&username=ZAP,
+true,GET,http://localhost:8888/images/search_img.png,
+true,POST,http://localhost:8888/?page=survey,
+true,POST,http://localhost:8888/?page=survey,
+true,POST,http://localhost:8888/?page=survey,
+true,GET,http://localhost:8888/?Submit=Submit&id=ZAP&page=member,
+true,POST,http://localhost:8888/?page=survey,
+true,POST,http://localhost:8888/?page=survey,
+true,GET,http://localhost:8888/images/search.png,
+true,GET,http://localhost:8888/?Submit=Submit&id=ZAP&page=searchimg,
+true,GET,http://localhost:8888/images/upload.png,
+true,POST,http://localhost:8888/?page=upload,
+false,GET,https://twitter.com/42born2code,Out of Scope
+false,GET,https://instagram.com/42born2code/,Out of Scope
+true,POST,http://localhost:8888/?page=feedback,
+false,GET,http://facebook.com/42Born2Code/,Out of Scope
+false,GET,https://fr.wikipedia.org/wiki/Albatros,Out of Scope
+false,GET,https://www.youtube.com/watch?v=Bznxx12Ptl0,Out of Scope
+true,GET,http://localhost:8888/audio/music.mp3,
+true,GET,http://localhost:8888/images/albatroz.jpg,
+false,GET,https://www.nsa.gov/,Out of Scope
+true,GET,http://localhost:8888/index.php?Submit=Submit&id=ZAP&page=member,
+true,POST,http://localhost:8888/index.php?page=survey,
+true,POST,http://localhost:8888/index.php?page=survey,
+true,POST,http://localhost:8888/index.php?page=survey,
+true,POST,http://localhost:8888/index.php?page=survey,
+true,POST,http://localhost:8888/index.php?page=feedback,
+true,GET,http://localhost:8888/index.php?page=recover,
+true,POST,http://localhost:8888/index.php?page=survey,
+true,GET,http://localhost:8888/index.php?Submit=Submit&id=ZAP&page=searchimg,
+true,GET,http://localhost:8888/images/mailbox.png,
+true,POST,http://localhost:8888/index.php?page=upload,
+true,GET,http://localhost:8888/index.php?Login=Login&page=signin&password=ZAP&username=ZAP,
+true,POST,http://localhost:8888/?page=recover,
+true,POST,http://localhost:8888/index.php?page=recover,
+true,GET,http://localhost:8888/images/WrongAnswer.gif,
