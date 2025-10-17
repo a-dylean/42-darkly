@@ -29,6 +29,6 @@ https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.ht
 1. Sanitize inputs.
 
 **References:**
-https://github.com/OWASP/wstg/blob/63fbe5bfb3b93ba4f3edfb0bd02e75429a3be5ce/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md
-https://github.com/OWASP/wstg/blob/63fbe5bfb3b93ba4f3edfb0bd02e75429a3be5ce/document/6-Appendix/D-Encoded_Injection.md#hex-encoding
-https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md 
+1. https://github.com/OWASP/wstg/blob/63fbe5bfb3b93ba4f3edfb0bd02e75429a3be5ce/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md
+2. https://github.com/OWASP/wstg/blob/63fbe5bfb3b93ba4f3edfb0bd02e75429a3be5ce/document/6-Appendix/D-Encoded_Injection.md#hex-encoding
+3. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md 
