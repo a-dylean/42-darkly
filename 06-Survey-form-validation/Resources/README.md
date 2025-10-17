@@ -20,7 +20,7 @@ Input Validation:
 3. Implement data integrity checks to detect and prevent data corruption or unauthorized modifications.
 
 **References:**
-https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md 
-https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
-https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
-https://owasp.org/www-project-mobile-top-10/2023-risks/m4-insufficient-input-output-validation
+1. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md 
+2. https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+3. https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+4. https://owasp.org/www-project-mobile-top-10/2023-risks/m4-insufficient-input-output-validation

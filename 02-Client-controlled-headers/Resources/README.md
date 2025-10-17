@@ -13,7 +13,7 @@ Setting these headers will unlock the flag:
 Use Referer: https://www.nsa.gov/
 Use User-Agent: ft_bornToSec
 ```
-https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Web_Page_Content_for_Information_Leakage.md#how-to-test
+
 **Impact:**
 1. Unauthorized data disclosure: Secrets or protected content can be revealed without proper authentication.
 2. Impersonation: Attackers can gain administrative access and act as legitimate users.
@@ -23,3 +23,6 @@ https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Te
 1. Remove secrets from client-facing source. Never place access instructions, tokens, or sensitive info in HTML comments or any client-side code.
 2. Do not use Referer / User-Agent as an auth mechanism. These headers are easily spoofed and can only be used for analytics but never for access control.
 3. Enforce proper server-side authentication & authorization. Require users to authenticate and check permissions on the server before returning secret content. Use sessions, signed tokens (JWT with proper signing & validation), or opaque session IDs mapped to server-side state.
+
+**References:**
+1. https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Web_Page_Content_for_Information_Leakage.md#how-to-test
