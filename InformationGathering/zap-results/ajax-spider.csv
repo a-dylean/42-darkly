@@ -1,0 +1,622 @@
+Processed,ID,Req. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body,Highest Alert,Note,Tags
+Out of Scope,155,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,156,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,157,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,158,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,159,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,160,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,161,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,162,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,163,Thu Oct 16 17:10:49 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,164,Thu Oct 16 17:10:50 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,165,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/,200,OK,6,304,6892,Medium,false,"Script, SetCookie, Comment"
+Processed,166,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,6,264,19718,Low,false,Comment
+Processed,167,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,8,264,23766,Low,false,Comment
+Processed,168,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,14,265,95786,Medium,false,Comment
+Processed,169,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,13,262,1845,Low,false,Comment
+Processed,170,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,14,250,97672,Low,false,Comment
+Processed,171,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,33,252,182191,Low,false,Comment
+Processed,172,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,19,244,216,Low,false,Comment
+Processed,173,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,19,248,20997,Low,false,"Password, Comment"
+Out of Scope,174,Thu Oct 16 17:10:50 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,175,Thu Oct 16 17:10:50 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,176,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,43,251,133243,Low,false,Comment
+Processed,177,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,43,252,277336,Low,false,Comment
+Processed,178,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,6,248,23739,Low,false,Comment
+Processed,179,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,57,252,469013,Low,false,Comment
+Processed,180,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,2,245,113,Low,false,
+Processed,182,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,40,264,56780,Low,false,
+Processed,184,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,133,252,511270,Low,false,Comment
+Processed,185,Thu Oct 16 17:10:50 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,4,250,1406,Low,false,
+Processed,186,Thu Oct 16 17:10:52 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Out of Scope,187,Thu Oct 16 17:10:52 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,188,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,189,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,190,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,191,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,192,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,193,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,194,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,195,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,196,Thu Oct 16 17:10:53 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,197,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/index.php,200,OK,12,194,6892,Medium,false,"Script, Comment"
+Out of Scope,198,Thu Oct 16 17:10:54 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,199,Thu Oct 16 17:10:54 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,200,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/,200,OK,59,304,6892,Medium,false,"Script, SetCookie, Comment"
+Processed,201,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,27,262,1845,Low,false,Comment
+Processed,202,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,29,264,23766,Low,false,Comment
+Processed,203,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,57,264,19718,Low,false,Comment
+Processed,204,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,85,265,95786,Medium,false,Comment
+Processed,205,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,61,250,97672,Low,false,Comment
+Processed,206,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,32,248,20997,Low,false,"Password, Comment"
+Out of Scope,207,Thu Oct 16 17:10:54 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,208,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,116,252,277336,Low,false,Comment
+Processed,209,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,109,251,133243,Low,false,Comment
+Processed,210,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,52,244,216,Low,false,Comment
+Processed,211,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,133,252,182191,Low,false,Comment
+Processed,212,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,31,248,23739,Low,false,Comment
+Out of Scope,213,Thu Oct 16 17:10:54 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,214,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,14,245,113,Low,false,
+Processed,215,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,176,252,469013,Low,false,Comment
+Processed,216,Thu Oct 16 17:10:55 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,9,264,56780,Low,false,
+Processed,217,Thu Oct 16 17:10:54 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,51,252,511270,Low,false,Comment
+Processed,218,Thu Oct 16 17:10:55 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,3,250,1406,Low,false,
+Out of Scope,219,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,220,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,221,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,222,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,223,Thu Oct 16 17:10:55 CEST 2025,GET,http://localhost:8888/index.php?page=survey,200,OK,6,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,224,Thu Oct 16 17:10:55 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,225,Thu Oct 16 17:10:55 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,226,Thu Oct 16 17:10:55 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,227,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,228,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,229,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,230,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,231,Thu Oct 16 17:10:55 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,232,Thu Oct 16 17:10:56 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,233,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,9,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,234,Thu Oct 16 17:10:56 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,235,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,9,249,17185,Low,false,
+Processed,236,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/,200,OK,13,304,6892,Medium,false,"Script, SetCookie, Comment"
+Out of Scope,237,Thu Oct 16 17:10:56 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,238,Thu Oct 16 17:10:56 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,239,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,5,262,1845,Low,false,Comment
+Processed,240,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,11,264,23766,Low,false,Comment
+Processed,241,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,15,265,95786,Medium,false,Comment
+Processed,242,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,13,264,19718,Low,false,Comment
+Processed,243,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,38,250,97672,Low,false,Comment
+Processed,244,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,40,252,182191,Low,false,Comment
+Processed,245,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,45,252,277336,Low,false,Comment
+Processed,246,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,55,251,133243,Low,false,Comment
+Processed,247,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,23,244,216,Low,false,Comment
+Processed,248,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,25,248,20997,Low,false,"Password, Comment"
+Out of Scope,249,Thu Oct 16 17:10:56 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,250,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,72,252,469013,Low,false,Comment
+Processed,251,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,11,248,23739,Low,false,Comment
+Out of Scope,252,Thu Oct 16 17:10:56 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,253,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,8,250,1406,Low,false,
+Processed,254,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,33,245,113,Low,false,
+Processed,255,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,36,264,56780,Low,false,
+Processed,256,Thu Oct 16 17:10:56 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,69,252,511270,Low,false,Comment
+Processed,257,Thu Oct 16 17:10:57 CEST 2025,POST,http://localhost:8888/index.php?page=survey,200,OK,68,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,258,Thu Oct 16 17:10:57 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,259,Thu Oct 16 17:10:57 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,260,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,261,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,262,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,263,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,264,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,265,Thu Oct 16 17:10:57 CEST 2025,GET,http://10.0.2.15/,403,Forbidden,0,130,40,,false,
+Out of Scope,266,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,267,Thu Oct 16 17:10:57 CEST 2025,GET,http://10.0.2.15/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,268,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,269,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,270,Thu Oct 16 17:10:57 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,271,Thu Oct 16 17:10:57 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,4,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,272,Thu Oct 16 17:10:57 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,273,Thu Oct 16 17:10:57 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,8,252,111300,Low,false,
+Out of Scope,274,Thu Oct 16 17:10:58 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,275,Thu Oct 16 17:10:58 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,276,Thu Oct 16 17:10:58 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,277,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/,200,OK,19,194,6892,Medium,false,"Script, Comment"
+Processed,278,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/,200,OK,19,304,6892,Medium,false,"Script, SetCookie, Comment"
+Out of Scope,279,Thu Oct 16 17:10:58 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,280,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,20,264,19718,Low,false,Comment
+Processed,281,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,28,264,23766,Low,false,Comment
+Processed,282,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,27,265,95786,Medium,false,Comment
+Processed,283,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,45,262,1845,Low,false,Comment
+Processed,284,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,188,252,277336,Low,false,Comment
+Processed,285,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/,200,OK,122,194,6892,Medium,false,"Script, Comment"
+Processed,286,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,107,244,216,Low,false,Comment
+Processed,287,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,211,251,133243,Low,false,Comment
+Processed,288,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,120,248,20997,Low,false,"Password, Comment"
+Processed,289,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,265,250,97672,Low,false,Comment
+Out of Scope,290,Thu Oct 16 17:10:59 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,291,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,297,252,182191,Low,false,Comment
+Out of Scope,292,Thu Oct 16 17:10:59 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,293,Thu Oct 16 17:10:58 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,354,252,469013,Low,false,Comment
+Processed,294,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,72,248,23739,Low,false,Comment
+Processed,295,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,6,245,113,Low,false,
+Processed,296,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,61,252,511270,Low,false,Comment
+Processed,297,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,24,264,56780,Low,false,
+Out of Scope,298,Thu Oct 16 17:10:59 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,299,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,5,250,1406,Low,false,
+Processed,300,Thu Oct 16 17:10:59 CEST 2025,GET,http://localhost:8888/?page=media&src=nsa,200,OK,9,194,2234,Medium,false,"Object, Script, Comment"
+Out of Scope,301,Thu Oct 16 17:10:59 CEST 2025,GET,http://10.0.2.15/,403,Forbidden,0,130,40,,false,
+Out of Scope,302,Thu Oct 16 17:10:59 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,303,Thu Oct 16 17:10:59 CEST 2025,GET,http://10.0.2.15/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,304,Thu Oct 16 17:10:59 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,305,Thu Oct 16 17:10:59 CEST 2025,GET,http://10.0.2.15/images/nsa_prism.jpg,403,Forbidden,0,130,40,,false,
+Out of Scope,306,Thu Oct 16 17:10:59 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,307,Thu Oct 16 17:10:59 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,308,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,309,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,310,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,311,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,312,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,313,Thu Oct 16 17:11:00 CEST 2025,GET,https://en.wikipedia.org/wiki/PRISM_(surveillance_program),403,Forbidden,0,130,40,,false,
+Processed,314,Thu Oct 16 17:11:00 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,25,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,315,Thu Oct 16 17:11:00 CEST 2025,GET,https://en.wikipedia.org/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,316,Thu Oct 16 17:11:00 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,317,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,318,Thu Oct 16 17:11:00 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,26,249,17185,Low,false,
+Out of Scope,319,Thu Oct 16 17:11:00 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,320,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,321,Thu Oct 16 17:11:00 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,322,Thu Oct 16 17:11:00 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,323,Thu Oct 16 17:11:00 CEST 2025,GET,http://localhost:8888/,200,OK,50,194,6892,Medium,false,"Script, Comment"
+Processed,324,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/,200,OK,23,194,6892,Medium,false,"Script, Comment"
+Out of Scope,325,Thu Oct 16 17:11:01 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,326,Thu Oct 16 17:11:01 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,327,Thu Oct 16 17:11:01 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,328,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/,200,OK,10,304,6892,Medium,false,"Script, SetCookie, Comment"
+Processed,329,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,9,264,23766,Low,false,Comment
+Processed,330,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,8,264,19718,Low,false,Comment
+Processed,331,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,8,262,1845,Low,false,Comment
+Processed,332,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,20,265,95786,Medium,false,Comment
+Processed,333,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,33,251,133243,Low,false,Comment
+Processed,334,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,32,250,97672,Low,false,Comment
+Processed,335,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,28,248,20997,Low,false,"Password, Comment"
+Out of Scope,336,Thu Oct 16 17:11:01 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,337,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,73,252,182191,Low,false,Comment
+Out of Scope,338,Thu Oct 16 17:11:01 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,339,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,44,244,216,Low,false,Comment
+Processed,340,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,21,248,23739,Low,false,Comment
+Processed,341,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,91,252,469013,Low,false,Comment
+Processed,342,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,99,252,277336,Low,false,Comment
+Processed,343,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,8,245,113,Low,false,
+Processed,344,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,9,250,1406,Low,false,
+Processed,345,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,46,252,511270,Low,false,Comment
+Processed,346,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,12,264,56780,Low,false,
+Processed,347,Thu Oct 16 17:11:01 CEST 2025,GET,http://localhost:8888/,200,OK,14,194,6892,Medium,false,"Script, Comment"
+Out of Scope,348,Thu Oct 16 17:11:02 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,349,Thu Oct 16 17:11:02 CEST 2025,GET,http://localhost:8888/index.php,200,OK,18,194,6892,Medium,false,"Script, Comment"
+Out of Scope,350,Thu Oct 16 17:11:02 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,351,Thu Oct 16 17:11:02 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,15,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Processed,352,Thu Oct 16 17:11:02 CEST 2025,GET,http://localhost:8888/?page=upload,200,OK,38,194,2489,Medium,false,"Form, Hidden, Upload, Script, Comment"
+Out of Scope,353,Thu Oct 16 17:11:02 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,354,Thu Oct 16 17:11:02 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,355,Thu Oct 16 17:11:02 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,17,249,17185,Low,false,
+Out of Scope,356,Thu Oct 16 17:11:02 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,357,Thu Oct 16 17:11:02 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,358,Thu Oct 16 17:11:02 CEST 2025,GET,http://localhost:8888/images/upload.png,200,OK,26,249,64785,Low,false,
+Out of Scope,359,Thu Oct 16 17:11:02 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,360,Thu Oct 16 17:11:02 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,361,Thu Oct 16 17:11:02 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,362,Thu Oct 16 17:11:02 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,363,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,364,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,365,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,12,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,366,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,367,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,13,252,111300,Low,false,
+Out of Scope,368,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,369,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,370,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,371,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,372,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,4,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,373,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,374,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,375,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,376,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,377,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/index.php?page=searchimg,200,OK,6,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,378,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,379,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,8,249,49089,Low,false,
+Out of Scope,380,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,381,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,382,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,383,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/?page=survey,200,OK,21,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Processed,384,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/,200,OK,24,304,6892,Medium,false,"Script, SetCookie, Comment"
+Processed,385,Thu Oct 16 17:11:03 CEST 2025,POST,http://localhost:8888/?page=upload,200,OK,22,194,2528,Medium,false,"Form, Hidden, Upload, Script, Comment"
+Out of Scope,386,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,387,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,7,262,1845,Low,false,Comment
+Out of Scope,388,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,389,Thu Oct 16 17:11:03 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,390,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,12,264,23766,Low,false,Comment
+Processed,391,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,23,265,95786,Medium,false,Comment
+Processed,392,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,25,264,19718,Low,false,Comment
+Out of Scope,393,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,394,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,395,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,19,251,133243,Low,false,Comment
+Processed,396,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,38,250,97672,Low,false,Comment
+Processed,397,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,22,244,216,Low,false,Comment
+Processed,398,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,28,248,20997,Low,false,"Password, Comment"
+Processed,399,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,51,252,182191,Low,false,Comment
+Out of Scope,400,Thu Oct 16 17:11:03 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,401,Thu Oct 16 17:11:03 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,402,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,63,252,277336,Low,false,Comment
+Processed,403,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,7,248,23739,Low,false,Comment
+Processed,404,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,86,252,469013,Low,false,Comment
+Processed,405,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,4,250,1406,Low,false,
+Processed,406,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,4,245,113,Low,false,
+Processed,407,Thu Oct 16 17:11:03 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,36,252,511270,Low,false,Comment
+Processed,408,Thu Oct 16 17:11:04 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,5,264,56780,Low,false,
+Processed,409,Thu Oct 16 17:11:04 CEST 2025,GET,http://localhost:8888/index.php,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Out of Scope,410,Thu Oct 16 17:11:04 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,411,Thu Oct 16 17:11:04 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,11,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,412,Thu Oct 16 17:11:04 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,413,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,414,Thu Oct 16 17:11:04 CEST 2025,GET,http://10.0.2.15/,403,Forbidden,0,130,40,,false,
+Out of Scope,415,Thu Oct 16 17:11:04 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,416,Thu Oct 16 17:11:04 CEST 2025,GET,http://10.0.2.15/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,417,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,418,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,419,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,420,Thu Oct 16 17:11:04 CEST 2025,GET,http://localhost:8888/,200,OK,7,194,6892,Medium,false,"Script, Comment"
+Out of Scope,421,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,422,Thu Oct 16 17:11:04 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,423,Thu Oct 16 17:11:04 CEST 2025,GET,http://localhost:8888/,200,OK,17,194,6892,Medium,false,"Script, Comment"
+Out of Scope,424,Thu Oct 16 17:11:05 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,425,Thu Oct 16 17:11:05 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,426,Thu Oct 16 17:11:05 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,427,Thu Oct 16 17:11:05 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,428,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,10,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,429,Thu Oct 16 17:11:05 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,430,Thu Oct 16 17:11:05 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,431,Thu Oct 16 17:11:05 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,432,Thu Oct 16 17:11:05 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,433,Thu Oct 16 17:11:05 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,434,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/,200,OK,11,304,6892,Medium,false,"Script, SetCookie, Comment"
+Processed,435,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,18,262,1845,Low,false,Comment
+Processed,436,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,27,264,23766,Low,false,Comment
+Processed,437,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,28,264,19718,Low,false,Comment
+Processed,438,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=facebook,302,Moved Temporarily,28,253,1885,Low,false,"Script, Comment"
+Processed,439,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,65,265,95786,Medium,false,Comment
+Processed,440,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,63,250,97672,Low,false,Comment
+Processed,441,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,60,251,133243,Low,false,Comment
+Processed,442,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,83,252,182191,Low,false,Comment
+Processed,443,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,58,248,20997,Low,false,"Password, Comment"
+Processed,444,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,64,244,216,Low,false,Comment
+Out of Scope,445,Thu Oct 16 17:11:05 CEST 2025,GET,https://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,446,Thu Oct 16 17:11:05 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,447,Thu Oct 16 17:11:05 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,448,Thu Oct 16 17:11:05 CEST 2025,GET,http://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Processed,449,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,14,248,23739,Low,false,Comment
+Processed,450,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,128,252,277336,Low,false,Comment
+Processed,451,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,143,252,469013,Low,false,Comment
+Processed,452,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/,200,OK,50,194,6892,Medium,false,"Script, Comment"
+Processed,453,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,8,245,113,Low,false,
+Processed,454,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,9,264,56780,Low,false,
+Out of Scope,455,Thu Oct 16 17:11:05 CEST 2025,GET,http://facebook.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,456,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,71,252,511270,Low,false,Comment
+Processed,457,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=facebook,302,Moved Temporarily,7,253,1885,Low,false,"Script, Comment"
+Out of Scope,458,Thu Oct 16 17:11:05 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,459,Thu Oct 16 17:11:05 CEST 2025,GET,https://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,460,Thu Oct 16 17:11:05 CEST 2025,GET,http://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Processed,461,Thu Oct 16 17:11:05 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,3,250,1406,Low,false,
+Out of Scope,462,Thu Oct 16 17:11:05 CEST 2025,GET,http://facebook.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,463,Thu Oct 16 17:11:06 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,3,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,464,Thu Oct 16 17:11:06 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,465,Thu Oct 16 17:11:06 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,14,252,111300,Low,false,
+Out of Scope,466,Thu Oct 16 17:11:06 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,467,Thu Oct 16 17:11:06 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,8,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,468,Thu Oct 16 17:11:06 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,469,Thu Oct 16 17:11:06 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,470,Thu Oct 16 17:11:06 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,471,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/,403,Forbidden,0,130,40,,false,
+Out of Scope,472,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,473,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,474,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,475,Thu Oct 16 17:11:06 CEST 2025,GET,http://10.0.2.15/,403,Forbidden,0,130,40,,false,
+Out of Scope,476,Thu Oct 16 17:11:06 CEST 2025,GET,http://10.0.2.15/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,477,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,478,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,479,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,480,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=tracking-protection-lists&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,481,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,482,Thu Oct 16 17:11:06 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,483,Thu Oct 16 17:11:06 CEST 2025,GET,http://localhost:8888/,200,OK,9,194,6892,Medium,false,"Script, Comment"
+Out of Scope,484,Thu Oct 16 17:11:06 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,485,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/,200,OK,14,194,6892,Medium,false,"Script, Comment"
+Processed,486,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,11,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Processed,487,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=twitter,302,Moved Temporarily,28,252,1885,Low,false,"Script, Comment"
+Out of Scope,488,Thu Oct 16 17:11:07 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,489,Thu Oct 16 17:11:07 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,490,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/,200,OK,37,304,6892,Medium,false,"Script, SetCookie, Comment"
+Out of Scope,491,Thu Oct 16 17:11:07 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,492,Thu Oct 16 17:11:07 CEST 2025,GET,https://twitter.com/42born2code,403,Forbidden,0,130,40,,false,
+Out of Scope,493,Thu Oct 16 17:11:07 CEST 2025,GET,https://twitter.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,494,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/js/init.js,200,OK,25,262,1845,Low,false,Comment
+Processed,495,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/js/skel-layers.min.js,200,OK,35,264,19718,Low,false,Comment
+Processed,496,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/js/skel.min.js,200,OK,33,264,23766,Low,false,Comment
+Processed,497,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/js/jquery.min.js,200,OK,47,265,95786,Medium,false,Comment
+Processed,498,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=twitter,302,Moved Temporarily,29,252,1885,Low,false,"Script, Comment"
+Processed,499,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/nsa.png,200,OK,62,251,133243,Low,false,Comment
+Out of Scope,500,Thu Oct 16 17:11:07 CEST 2025,GET,https://twitter.com/42born2code,403,Forbidden,0,130,40,,false,
+Processed,501,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/nsa_prism.jpg,200,OK,67,252,182191,Low,false,Comment
+Processed,502,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/04_Playstation.jpg,200,OK,84,252,277336,Low,false,Comment
+Processed,503,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/PRISM_logo.png,200,OK,93,250,97672,Low,false,Comment
+Processed,504,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/css/style.css,200,OK,59,248,20997,Low,false,"Password, Comment"
+Processed,505,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/05_Lounge.jpg,200,OK,102,252,469013,Low,false,Comment
+Processed,506,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/?page=survey,200,OK,82,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Processed,507,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/css/style-xlarge.css,200,OK,50,244,216,Low,false,Comment
+Out of Scope,508,Thu Oct 16 17:11:07 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,509,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/css/font-awesome.min.css,200,OK,8,248,23739,Low,false,Comment
+Out of Scope,510,Thu Oct 16 17:11:07 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,511,Thu Oct 16 17:11:07 CEST 2025,GET,https://twitter.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,512,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/favicon.ico,200,OK,9,250,1406,Low,false,
+Out of Scope,513,Thu Oct 16 17:11:07 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,514,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/css/images/overlay.png,200,OK,9,245,113,Low,false,
+Processed,515,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/fonts/fontawesome-webfont.woff2?v=4.3.0,200,OK,7,264,56780,Low,false,
+Out of Scope,516,Thu Oct 16 17:11:07 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,517,Thu Oct 16 17:11:07 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,518,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/images/banner.jpg,200,OK,45,252,511270,Low,false,Comment
+Processed,519,Thu Oct 16 17:11:07 CEST 2025,GET,http://localhost:8888/,200,OK,11,194,6892,Medium,false,"Script, Comment"
+Out of Scope,520,Thu Oct 16 17:11:07 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,521,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,5,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,522,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,523,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,524,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,525,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/index.php,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Processed,526,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,7,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,527,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,528,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,529,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,530,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,531,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/,200,OK,8,194,6892,Medium,false,"Script, Comment"
+Out of Scope,532,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,533,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/,200,OK,10,194,6892,Medium,false,"Script, Comment"
+Out of Scope,534,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,535,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/,200,OK,19,194,6892,Medium,false,"Script, Comment"
+Processed,536,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=instagram,302,Moved Temporarily,9,255,1885,Low,false,"Script, Comment"
+Out of Scope,537,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,538,Thu Oct 16 17:11:08 CEST 2025,GET,https://instagram.com/42born2code/,403,Forbidden,0,130,40,,false,
+Processed,539,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,7,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,540,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,541,Thu Oct 16 17:11:08 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,12,249,49089,Low,false,
+Out of Scope,542,Thu Oct 16 17:11:08 CEST 2025,GET,https://instagram.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,543,Thu Oct 16 17:11:08 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,544,Thu Oct 16 17:11:08 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,545,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,4,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,546,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,547,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,3,249,17185,Low,false,
+Out of Scope,548,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,549,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,550,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,200,OK,4,194,5837,Medium,false,"Script, Comment"
+Out of Scope,551,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,552,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/images/albatroz.jpg,200,OK,7,251,75862,Low,false,
+Processed,553,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=instagram,302,Moved Temporarily,4,255,1885,Low,false,"Script, Comment"
+Out of Scope,554,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,555,Thu Oct 16 17:11:09 CEST 2025,GET,https://instagram.com/42born2code/,403,Forbidden,0,130,40,,false,
+Out of Scope,556,Thu Oct 16 17:11:09 CEST 2025,GET,https://instagram.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,557,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/audio/music.mp3,206,Partial Content,122,285,2377507,Low,false,Comment
+Processed,558,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,46,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,559,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,560,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,6,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,561,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,562,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,563,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,564,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,565,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,566,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,4,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,567,Thu Oct 16 17:11:09 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,568,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,3,249,17185,Low,false,
+Out of Scope,569,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,570,Thu Oct 16 17:11:09 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Out of Scope,571,Thu Oct 16 17:11:09 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,572,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/?page=survey,200,OK,15,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,573,Thu Oct 16 17:11:10 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,574,Thu Oct 16 17:11:10 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,575,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,200,OK,6,194,5837,Medium,false,"Script, Comment"
+Out of Scope,576,Thu Oct 16 17:11:10 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,577,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/images/albatroz.jpg,200,OK,7,251,75862,Low,false,
+Out of Scope,578,Thu Oct 16 17:11:10 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,579,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/audio/music.mp3,206,Partial Content,122,285,2377507,Low,false,Comment
+Processed,580,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Out of Scope,581,Thu Oct 16 17:11:10 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,582,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/?page=recover,200,OK,10,194,2396,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,583,Thu Oct 16 17:11:10 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,584,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/images/mailbox.png,200,OK,6,249,49480,Low,false,
+Out of Scope,585,Thu Oct 16 17:11:10 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,586,Thu Oct 16 17:11:10 CEST 2025,GET,https://fr.wikipedia.org/wiki/Albatros,403,Forbidden,0,130,40,,false,
+Processed,587,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/index.php,200,OK,8,194,6892,Medium,false,"Script, Comment"
+Processed,588,Thu Oct 16 17:11:10 CEST 2025,GET,http://localhost:8888/?page=member&id=NgPdxoQq&Submit=Submit,200,OK,15,194,1332,Medium,false,"Script, Comment"
+Out of Scope,589,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,590,Thu Oct 16 17:11:11 CEST 2025,GET,https://fr.wikipedia.org/favicon.ico,403,Forbidden,0,130,40,,false,
+Out of Scope,591,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,592,Thu Oct 16 17:11:11 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,593,Thu Oct 16 17:11:11 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,594,Thu Oct 16 17:11:11 CEST 2025,GET,http://localhost:8888/,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Processed,595,Thu Oct 16 17:11:11 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,11,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,596,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,597,Thu Oct 16 17:11:11 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,10,249,49089,Low,false,
+Out of Scope,598,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,599,Thu Oct 16 17:11:11 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,600,Thu Oct 16 17:11:11 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,601,Thu Oct 16 17:11:11 CEST 2025,GET,https://www.youtube.com/watch?v=Bznxx12Ptl0,403,Forbidden,0,130,40,,false,
+Out of Scope,602,Thu Oct 16 17:11:11 CEST 2025,GET,https://www.youtube.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,603,Thu Oct 16 17:11:11 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,8,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,604,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,605,Thu Oct 16 17:11:11 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,606,Thu Oct 16 17:11:11 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,607,Thu Oct 16 17:11:11 CEST 2025,POST,http://localhost:8888/?page=recover,200,OK,4,194,2493,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,608,Thu Oct 16 17:11:12 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,609,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/images/WrongAnswer.gif,200,OK,3,248,4855,Low,false,
+Out of Scope,610,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,611,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Processed,612,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/,200,OK,12,194,6892,Medium,false,"Script, Comment"
+Processed,613,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/,200,OK,15,194,6892,Medium,false,"Script, Comment"
+Out of Scope,614,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,615,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,616,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,617,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,29,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,618,Thu Oct 16 17:11:12 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,619,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,58,252,111300,Low,false,
+Out of Scope,620,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,621,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,21,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,622,Thu Oct 16 17:11:12 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,623,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/images/search_img.png,200,OK,23,249,17185,Low,false,
+Out of Scope,624,Thu Oct 16 17:11:12 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,625,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,626,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Out of Scope,627,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,628,Thu Oct 16 17:11:12 CEST 2025,GET,http://localhost:8888/?page=survey,200,OK,7,194,5912,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,629,Thu Oct 16 17:11:12 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,630,Thu Oct 16 17:11:12 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,631,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Out of Scope,632,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,633,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,7,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Processed,634,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,24,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,635,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,636,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,14,252,111300,Low,false,
+Out of Scope,637,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,638,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,639,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,640,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,8,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,641,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,642,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,643,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,644,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,645,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=facebook,302,Moved Temporarily,5,253,1885,Low,false,"Script, Comment"
+Out of Scope,646,Thu Oct 16 17:11:13 CEST 2025,GET,https://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,647,Thu Oct 16 17:11:13 CEST 2025,GET,http://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,648,Thu Oct 16 17:11:13 CEST 2025,GET,http://facebook.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,649,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Out of Scope,650,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,651,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,4,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,652,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,653,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,4,249,49089,Low,false,
+Out of Scope,654,Thu Oct 16 17:11:13 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,655,Thu Oct 16 17:11:13 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,656,Thu Oct 16 17:11:13 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Out of Scope,657,Thu Oct 16 17:11:14 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,658,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,7,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,659,Thu Oct 16 17:11:14 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,660,Thu Oct 16 17:11:14 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,661,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=twitter,302,Moved Temporarily,6,252,1885,Low,false,"Script, Comment"
+Out of Scope,662,Thu Oct 16 17:11:14 CEST 2025,GET,https://twitter.com/42born2code,403,Forbidden,0,130,40,,false,
+Processed,663,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/?page=member,200,OK,8,194,2452,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,664,Thu Oct 16 17:11:14 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,665,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=facebook,302,Moved Temporarily,8,253,1885,Low,false,"Script, Comment"
+Out of Scope,666,Thu Oct 16 17:11:14 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,667,Thu Oct 16 17:11:14 CEST 2025,GET,https://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,668,Thu Oct 16 17:11:14 CEST 2025,GET,http://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,669,Thu Oct 16 17:11:14 CEST 2025,GET,http://facebook.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,670,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Out of Scope,671,Thu Oct 16 17:11:14 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,672,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,6,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,673,Thu Oct 16 17:11:14 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,674,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,8,252,111300,Low,false,
+Out of Scope,675,Thu Oct 16 17:11:14 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,676,Thu Oct 16 17:11:14 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=twitter,302,Moved Temporarily,4,252,1885,Low,false,"Script, Comment"
+Out of Scope,677,Thu Oct 16 17:11:14 CEST 2025,GET,https://twitter.com/42born2code,403,Forbidden,0,130,40,,false,
+Out of Scope,678,Thu Oct 16 17:11:14 CEST 2025,GET,https://twitter.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,679,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,5,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,680,Thu Oct 16 17:11:15 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,681,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,5,249,49089,Low,false,
+Out of Scope,682,Thu Oct 16 17:11:15 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,683,Thu Oct 16 17:11:15 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,684,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=facebook,302,Moved Temporarily,4,253,1885,Low,false,"Script, Comment"
+Out of Scope,685,Thu Oct 16 17:11:15 CEST 2025,GET,https://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,686,Thu Oct 16 17:11:15 CEST 2025,GET,http://facebook.com/42Born2Code/,403,Forbidden,0,130,40,,false,
+Out of Scope,687,Thu Oct 16 17:11:15 CEST 2025,GET,http://facebook.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,688,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Processed,689,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Out of Scope,690,Thu Oct 16 17:11:15 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,691,Thu Oct 16 17:11:15 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,692,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/,200,OK,15,194,6892,Medium,false,"Script, Comment"
+Out of Scope,693,Thu Oct 16 17:11:15 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,694,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,9,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,695,Thu Oct 16 17:11:15 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,696,Thu Oct 16 17:11:15 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,697,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=instagram,302,Moved Temporarily,5,255,1885,Low,false,"Script, Comment"
+Out of Scope,698,Thu Oct 16 17:11:15 CEST 2025,GET,https://instagram.com/42born2code/,403,Forbidden,0,130,40,,false,
+Processed,699,Thu Oct 16 17:11:15 CEST 2025,GET,http://localhost:8888/,200,OK,5,194,6892,Medium,false,"Script, Comment"
+Out of Scope,700,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,701,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=instagram,302,Moved Temporarily,5,255,1885,Low,false,"Script, Comment"
+Out of Scope,702,Thu Oct 16 17:11:16 CEST 2025,GET,https://instagram.com/42born2code/,403,Forbidden,0,130,40,,false,
+Processed,703,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Out of Scope,704,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,705,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,4,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,706,Thu Oct 16 17:11:16 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,707,Thu Oct 16 17:11:16 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,708,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,709,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,6,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,710,Thu Oct 16 17:11:16 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,711,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,18,249,49089,Low,false,
+Out of Scope,712,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,713,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,9,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,714,Thu Oct 16 17:11:16 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,715,Thu Oct 16 17:11:16 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,716,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,717,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=twitter,302,Moved Temporarily,4,252,1885,Low,false,"Script, Comment"
+Out of Scope,718,Thu Oct 16 17:11:16 CEST 2025,GET,https://twitter.com/42born2code,403,Forbidden,0,130,40,,false,
+Out of Scope,719,Thu Oct 16 17:11:16 CEST 2025,GET,https://twitter.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,720,Thu Oct 16 17:11:16 CEST 2025,GET,http://localhost:8888/,200,OK,7,194,6892,Medium,false,"Script, Comment"
+Out of Scope,721,Thu Oct 16 17:11:16 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,722,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,5,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,723,Thu Oct 16 17:11:17 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,724,Thu Oct 16 17:11:17 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,725,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,726,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/,200,OK,11,194,6892,Medium,false,"Script, Comment"
+Out of Scope,727,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,728,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,6,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,729,Thu Oct 16 17:11:17 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,730,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/images/search.png,200,OK,6,249,49089,Low,false,
+Out of Scope,731,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,732,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,200,OK,5,194,5837,Medium,false,"Script, Comment"
+Out of Scope,733,Thu Oct 16 17:11:17 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,734,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/images/albatroz.jpg,200,OK,7,251,75862,Low,false,
+Out of Scope,735,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,736,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,200,OK,64,194,5837,Medium,false,"Script, Comment"
+Out of Scope,737,Thu Oct 16 17:11:17 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,738,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/images/albatroz.jpg,200,OK,7,251,75862,Low,false,
+Processed,739,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/audio/music.mp3,206,Partial Content,122,285,2377507,Low,false,Comment
+Out of Scope,740,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,741,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/index.php?page=redirect&site=instagram,302,Moved Temporarily,9,255,1885,Low,false,"Script, Comment"
+Processed,742,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/,200,OK,10,194,6892,Medium,false,"Script, Comment"
+Out of Scope,743,Thu Oct 16 17:11:17 CEST 2025,GET,https://instagram.com/42born2code/,403,Forbidden,0,130,40,,false,
+Processed,744,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/audio/music.mp3,206,Partial Content,130,285,2377507,Low,false,Comment
+Out of Scope,745,Thu Oct 16 17:11:17 CEST 2025,GET,https://instagram.com/favicon.ico,403,Forbidden,0,130,40,,false,
+Processed,746,Thu Oct 16 17:11:17 CEST 2025,GET,http://localhost:8888/?page=feedback,200,OK,28,194,3643,Medium,false,"Form, Script, Comment"
+Out of Scope,747,Thu Oct 16 17:11:17 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,748,Thu Oct 16 17:11:18 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,749,Thu Oct 16 17:11:18 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,750,Thu Oct 16 17:11:18 CEST 2025,GET,http://localhost:8888/?page=signin,200,OK,10,194,3006,Medium,false,"Form, Password, Hidden, Script, Comment"
+Out of Scope,751,Thu Oct 16 17:11:18 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,752,Thu Oct 16 17:11:18 CEST 2025,GET,http://localhost:8888/images/marvin.jpg,200,OK,25,252,111300,Low,false,
+Out of Scope,753,Thu Oct 16 17:11:18 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,754,Thu Oct 16 17:11:18 CEST 2025,GET,http://localhost:8888/?page=searchimg&id=eXEzKdOH&Submit=Submit,200,OK,9,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,755,Thu Oct 16 17:11:18 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,756,Thu Oct 16 17:11:18 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,757,Thu Oct 16 17:11:18 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Out of Scope,758,Thu Oct 16 17:11:18 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,759,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/,200,OK,4,194,6892,Medium,false,"Script, Comment"
+Processed,760,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/,200,OK,6,194,6892,Medium,false,"Script, Comment"
+Out of Scope,761,Thu Oct 16 17:11:19 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Out of Scope,762,Thu Oct 16 17:11:19 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,763,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/?page=searchimg,200,OK,17,194,2400,Medium,false,"Form, Hidden, Script, Comment"
+Out of Scope,764,Thu Oct 16 17:11:19 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,765,Thu Oct 16 17:11:19 CEST 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,766,Thu Oct 16 17:11:19 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,767,Thu Oct 16 17:11:19 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,768,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f,200,OK,6,194,5837,Medium,false,"Script, Comment"
+Out of Scope,769,Thu Oct 16 17:11:19 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,770,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/images/albatroz.jpg,200,OK,7,251,75862,Low,false,
+Out of Scope,771,Thu Oct 16 17:11:19 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
+Processed,772,Thu Oct 16 17:11:19 CEST 2025,GET,http://localhost:8888/audio/music.mp3,206,Partial Content,109,285,2377507,Low,false,Comment
+Processed,773,Thu Oct 16 17:11:18 CEST 2025,GET,http://localhost:8888/?page=signin&username=duKbBjOW&password=&Login=Login,200,OK,2022,194,1982,Medium,false,"Script, Comment"
+Out of Scope,774,Thu Oct 16 17:11:20 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Processed,775,Thu Oct 16 17:11:20 CEST 2025,GET,http://localhost:8888/images/WrongAnswer.gif,200,OK,14,248,4855,Low,false,
+Out of Scope,776,Thu Oct 16 17:11:20 CEST 2025,GET,http://10.0.2.15/images/42.jpeg,403,Forbidden,0,130,40,,false,
+Out of Scope,777,Thu Oct 16 17:11:20 CEST 2025,GET,"http://fonts.googleapis.com/css?family=Raleway:400,700",403,Forbidden,0,130,40,,false,
