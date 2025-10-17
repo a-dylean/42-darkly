@@ -11,7 +11,7 @@ Insert malisious script `<script>alert(123)</script>` in `<form></form>` to trig
 https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md 
 
 **Impact:**
-1. Unprotected data entrypoint resulting in  an XSS attack.
+1. Unprotected data entrypoint potentially resulting in an XSS attack.
 https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
 
 **Mitigation:**
