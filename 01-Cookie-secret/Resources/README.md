@@ -1,10 +1,8 @@
-**Vulnerability: Insecure Client-side session implementation (Cookie poisoning)**
+**Vulnerability: Insecure Client-side session implementation**
 
 **Description:**
 The application stores state information on the client inside an unsigned and weakly hashed cookie. An attacker can reverse with that cookie value to escalate privileges (for example, set an “admin” flag) because the server does not cryptographically verify cookie integrity or authenticity.
-https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md
 
-https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md
 **Steps to Reproduce:**
 ```
 cookie {
@@ -25,3 +23,8 @@ The value is an MD5 hash. Using an MD5 lookup/decrypt service like https://md5de
 3. If client cookies must carry state, sign and/or encrypt them. Use an HMAC (e.g., HMAC-SHA256) or AEAD with a server secret to ensure integrity and authenticity; verify signature server-side on every request. Do not use MD5 or unsalted hashes.
 4. Set security flags for cookies (Secure, HttpOnly). More info here: https://www.invicti.com/learn/cookie-security-flags/
 5. Use multi-factor authentication (MFA) as an additional security mechanism.
+
+**References:**
+https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md
+https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md
+https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md#parameter-modification
