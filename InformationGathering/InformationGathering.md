@@ -16,17 +16,17 @@ Mains infos:
 
 ### Dynamic Pages & Entry Points
 
-| URL                         | Method   | Parameters                            | Authentication | Input Validation | Identified Vulnerabilities | Notes                                                  |
-| --------------------------- | -------- | ------------------------------------- | -------------- | ---------------- | -------------------------- | ------------------------------------------------------ |
-| `/index.php?page=signin`    | GET/POST | `page=signin`, `username`, `password` | No             | Unknown          | -                          | Login page - test for auth bypass, brute force         |
-| `/index.php?page=member`    | GET      | `page=member`, `id` (string)          | No             | None             | SQL Injection              | Member profile area - injectable id parameter          |
-| `/index.php?page=searchimg` | GET      | `page=searchimg`, `id` (string)       | No             | None             | SQL Injection              | Image search - injectable id parameter                 |
-| `/index.php?page=survey`    | GET/POST | `page=survey`, form fields            | Unknown        | Unknown          | Possible XSS               | Survey form - test all input fields for XSS            |
-| `/index.php?page=upload`    | GET/POST | `page=upload`, `file`                 | No             | Extension (jpeg) | Unrestricted File Upload   | File upload - test extensions, MIME types, size limits |
-| `/index.php?page=contact`   | GET/POST | `page=contact`, form fields           | No             | Unknown          | Possible XSS/CSRF          | Contact form - test email injection, XSS               |
-| `/index.php?page=about`     | GET      | `page=about`                          | No             | N/A              | -                          | Static content                                         |
-| `/index.php?page=home`      | GET      | `page=home`                           | No             | N/A              | -                          | Home page                                              |
-| `/index.php`                | GET      | `page` (empty/invalid)                | No             | Unknown          | Path Traversal, LFI        | Test page parameter with `../`, `null`, special chars. |
+| URL                         | Method   | Parameters                                     | Authentication | Input Validation | Identified Vulnerabilities | Notes                                                  |
+| --------------------------- | -------- | ---------------------------------------------- | -------------- | ---------------- | -------------------------- | ------------------------------------------------------ |
+| `/index.php?page=signin`    | GET/POST | `page=signin`, `username`, `password`, `Login` | No             | Unknown          | No rate limiting           | Login page - test for auth bypass, brute force         |
+| `/index.php?page=member`    | GET      | `page=member`, `id` (string)                   | No             | None             | SQL Injection              | Member profile area - injectable id parameter          |
+| `/index.php?page=media`     | GET      | `page=media`, `src`                            | No             | -                | -                          | -                                                      |
+| `/index.php?page=searchimg` | GET      | `page=searchimg`, `id` (string)                | No             | None             | SQL Injection              | Image search - injectable id parameter                 |
+| `/index.php?page=survey`    | GET/POST | `page=survey`, form fields                     | Unknown        | Unknown          | Possible XSS               | Survey form - test all input fields for XSS            |
+| `/index.php?page=upload`    | GET/POST | `page=upload`, `file`                          | No             | Extension (jpeg) | Unrestricted File Upload   | File upload - test extensions, MIME types, size limits |
+| `/index.php?page=feedback`  | GET/POST | `page=feedback`, form fields                   | No             | Unknown          | Possible XSS/CSRF          | Feedback form - test all input fields for XSS/CSRF     |
+| `/index.php?page=home`      | GET      | `page=home`                                    | No             | N/A              | -                          | Home page                                              |
+| `/index.php`                | GET      | `page` (empty/invalid)                         | No             | Unknown          | Path Traversal, LFI        | Test page parameter with `../`, `null`, special chars. |
 
 ### Testing Priorities
 
